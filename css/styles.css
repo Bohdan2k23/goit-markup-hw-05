@@ -56,6 +56,28 @@ img {
 .menu-link {
   padding: 24px 0 24px;
 }
+.menu-item-studio::after {
+  content: '';
+  display: flex;
+  align-items: center;
+  width: 48px;
+  height: 4px;
+  left: 0px;
+  top: 44px;
+  background: #404bbf;
+  border-radius: 2px;
+}
+.menu-item-portfolio::after {
+  content: '';
+  display: flex;
+  align-items: center;
+  width: 66px;
+  height: 4px;
+  left: 0px;
+  top: 44px;
+  background: #404bbf;
+  border-radius: 2px;
+}
 .inf-list {
   display: flex;
   gap: 40px;
