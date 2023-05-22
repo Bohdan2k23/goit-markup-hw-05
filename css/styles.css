@@ -72,8 +72,7 @@ img {
 }
 .menu-link.current::after {
   content: '';
-  display: block;
-  /* position: absolute; */
+  position: absolute;
   bottom: -1px;
   width: 48px;
   height: 4px;
@@ -86,7 +85,7 @@ img {
 }
 .menu-link.active::after {
   content: '';
-  display: block;
+  position: absolute;
   width: 66px;
   height: 4px;
   left: 0px;
